@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration:none ;
+    box-sizing: border-box;
+}
+
+.nav2 {
+    background-image: url("https://preview.colorlib.com/theme/travello/images/home_slider.jpg.webp");
+    background-size: cover;
+    height: 45rem;
+}
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: -2.5px;
+    /* line-height: 0.75; */
+}
+
+header { 
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.baslig {
+    display: flex;;
+    align-items: center;
+    width: 1150px ;
+    justify-content: space-between;
+    height: 120px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color:white;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+span {
+    color:white;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+h1 {
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    height: 300px;
+    padding-top: 200px;
+    font-size: 100px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: -4.5px;
+}
+
+.nav2 {
+        position: relative;
+}
+
+.ul2 {
+    position: absolute;
+    right: 100px;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    letter-spacing: -1.5px;
+    font-weight: bold ;
+    
+}
+.tableTitle {
+    width: 247px;
+    height: 55px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 55px;
+    line-height: 55px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -1.5px;
+    font-weight: bold ;
+}
+.search {
+    height: 50px;
+    background: #f2f5f6;
+    padding-left: 17px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px ;
+    border: none;
+    color: #72728c ;
+    margin: 0 auto;
+    letter-spacing: -1.5px;
+    font-weight: bold ;
+}
+
+.Button {
+    width: 161px;
+    height: 52px;
+    background: #181818;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    letter-spacing: -1.5px;
+    font-weight: bold ;
+    margin: auto;
+}
+
+.form1 {
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 67px 0px 83px;
+    
+}
+
+.search1 {
+    width: 25%;
+}
+
+.search2 {
+    width: 15%;
+} 
+.search3 {
+    width: 15%;
+}
+
+.search4 {
+    width: 20%;
+}
+
+.asagi {
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 12px;
+    width: 1275px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    padding-top:115px;
+}

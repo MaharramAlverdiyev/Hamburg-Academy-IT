@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration:none ;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: -2.5px;
+    /* line-height: 0.75; */
+}
+
+header { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: rgba(24, 24, 24, 0.6);
+}
+
+
+.baslig {
+    display: flex;;
+    align-items: center;
+    width: 1111px ;
+    justify-content: space-between;
+    height: 85px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    letter-spacing: -1.0px;
+}
+
+span {
+    color:white;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+main { 
+    display: flex;
+    justify-content: center;
+}
+
+.shekiller{
+    width: 261px;
+    height: 170px;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.content a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.category a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 9px;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    width: 1124px;
+    padding-bottom: 20px;
+
+}
+.yazi1 {
+    display: flex;
+    width: 1050px;
+    height: 80px;
+    align-items: center;
+}
+.yazi2 {
+    display: flex;
+    width: 1050px;
+    height: 80px;
+    align-items: center;
+}
+
+.melumatlar {
+    padding-left: 30px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #181818;
+    line-height: 0.75;
+    letter-spacing: -4.5px;
+}
+
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #72728c;
+    text-transform: uppercase;
+    line-height: 0.75;
+    letter-spacing: 1.2px;
+    margin-left: 6px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.9285;
+    font-weight: 400;
+    color: #72728c;
+}
+
+.solteref {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 800px;
+    height: 520px;
+    
+}
+.yazi1, .yazi2, .yazi3 {
+    display: flex;
+    width: 1050px;
+    height: 80px;
+    align-items: center;
+}
+
+.sagteref {
+    background-image: url("https://preview.colorlib.com/theme/travello/images/travello.jpg.webp");
+    width: 360px;
+    height: 612px;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.travello_title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: -0.22rem;
+    z-index: 1;
+}
+
+.travello_subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 6px;
+    font-weight: bold;
+    letter-spacing: -0.100rem;
+    z-index: 1;
+}
+ .rengler {
+    width: 100%;
+    height: 100%;
+    position: relative;
+ }
+
+ .mavi {
+    left: 0;
+    background: rgba(45, 143, 197, 0.7);
+    transform-origin: top left;
+    transform: rotate(12deg);
+    position: absolute;
+    top: 58%;
+    width: 200%;
+    height: 100%;
+    z-index: 1;
+ }
+
+ .qirmizi {
+    right: 0;
+    background: rgba(237, 35, 69, 0.7);
+    transform-origin: top right;
+    transform: rotate(-12deg);
+    position: absolute;
+    top: 58%;
+    width: 200%;
+    height: 100%;
+    z-index: 1;
+ }
